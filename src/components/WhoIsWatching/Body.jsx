@@ -1,4 +1,6 @@
 import React from 'react';
+import CardProfile from './CardProfile';
+
 
 function Body() {
     return (
@@ -6,7 +8,7 @@ function Body() {
             <div className="flex flex-col items-center">
                 <h1 className="text-white text-center text-3xl font-bold tracking-widest mb-8">Who's Watching?</h1>
                 <div className="bg-gray-800 rounded-lg p-8">
-                    {/* Aquí irán los perfiles de los usuarios */}
+                    <CardProfile name="Karl Hadwen" job="CEO, Relaxr" image="https://i.imgur.com/3suxlvm.png" />
                 </div>
             </div>
         </div>
