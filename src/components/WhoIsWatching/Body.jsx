@@ -8,8 +8,6 @@ function Body() {
                 <div className="bg-gray-800 rounded-lg p-8">
                     {/* Aquí irán los perfiles de los usuarios */}
                 </div>
-                <button className="border border-white text-white py-2 px-4 rounded-lg text-sm font-medium">Manage Profiles</button>
-
             </div>
         </div>
     );
