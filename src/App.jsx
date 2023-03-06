@@ -1,9 +1,13 @@
 import React from 'react'
 import WhoIsWatching from './pages/WhoIsWatching'
+import Browse from './pages/Browse'
 
 function App() {
   return (
-    <WhoIsWatching />
+    <div>
+      <Browse />
+      {/* <WhoIsWatching /> */}
+    </div>
   )
 }
 

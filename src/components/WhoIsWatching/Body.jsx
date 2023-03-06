@@ -7,9 +7,9 @@ function Body() {
             <div className="-mt-20 flex-grow bg-gradient-to-b from-black to-gray-900 flex flex-col justify-center items-center" style={{ background: "#111111" }}>
                 <h1 className="text-white text-5xl font-bold tracking-widest mb-11 text-center sm:text-left" style={{ color: "rgb(254, 254, 254)" }}>Who's Watching?</h1>
                 <div className="flex flex-col items-center pt-4">
-                    <CardProfile name="Jane Doe" image="https://randomuser.me/api/portraits/men/34.jpg" className="mt-8" />
+                    <CardProfile name="Jane Doe" image="https://randomuser.me/api/portraits/men/34.jpg" link="../../pages/Browse" className="mt-8" />
                     <div className="mt-4 border-white border-2">
-
+                        <button className="bg-transparent text-white px-8 py-2 rounded-full" style={{ borderRadius: 'inherit' }}>Manage Profiles</button>
                     </div>
                 </div>
             </div>
